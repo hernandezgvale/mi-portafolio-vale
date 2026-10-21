@@ -53,8 +53,9 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 **Criterios de aceptación:**
 
-<!-- TODO: escribe mínimo 3 criterios con el formato Dado / cuando / entonces -->
-- [ ] TODO
+- [ ] Dado que abro el portafolio, cuando llego al final de la página, entonces veo un pie de página con el año 2026 y el nombre del aprendiz.
+- [ ] Dado que estoy en el pie de página, cuando reviso los enlaces sociales, entonces encuentro enlaces a las redes del aprendiz.
+- [ ] Dado que hago clic en un enlace social, cuando se abre el destino, entonces llego a la página correspondiente de esa red social.
 
 **Issue:** #
 
@@ -68,9 +69,9 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 **Criterios de aceptación:**
 
-<!-- TODO: escribe mínimo 3 criterios con el formato Dado / cuando / entonces.
-     Pista: ¿el enlace abre en una pestaña nueva? ¿Qué texto muestra? -->
-- [ ] TODO
+- [ ] Dado que abro la sección "Proyectos", cuando reviso las tarjetas, entonces cada proyecto tiene un enlace a su repositorio en GitHub.
+- [ ] Dado que veo el enlace de un proyecto, cuando reviso el texto del enlace, entonces aparece un texto claro como "Ver repositorio en GitHub".
+- [ ] Dado que hago clic en el enlace del repositorio, cuando se abre el destino, entonces el repositorio se abre en una pestaña nueva.
 
 **Issue:** #
 
@@ -84,9 +85,11 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 **Criterios de aceptación:**
 
-<!-- TODO: escribe mínimo 3 criterios con el formato Dado / cuando / entonces.
-     Pista: ¿qué pasa con las 3 tarjetas en una pantalla de menos de 600 px? -->
-- [ ] TODO
+- [ ] Dado que abro el portafolio en una pantalla de menos de 600 px, cuando veo las tarjetas de proyectos, entonces las 3 tarjetas se muestran en una sola columna.
+
+- [ ] Dado que navego por el portafolio desde un celular, cuando leo el contenido, entonces puedo ver los textos sin necesidad de hacer zoom.
+
+- [ ] Dado que uso el portafolio en una pantalla pequeña, cuando recorro la página, entonces el contenido no genera desplazamiento horizontal.
 
 **Issue:** #
 
@@ -94,18 +97,17 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 ## HU-06 · (RETO) Escribe tu propia historia
 
-<!-- TODO (RETO): reemplaza el título y escribe tu propia historia de usuario.
-     Debe tener: Historia (Como / quiero / para), Etiquetas, Estimación,
-     mínimo 3 criterios Dado / cuando / entonces y el número de su issue.
-     Ideas: botón "volver arriba", modo oscuro, descargar hoja de vida,
-     formulario de contacto, foto de perfil, sección de estudios. -->
 
-**Historia:** TODO
+**Historia:** Como visitante del portafolio, quiero un botón para volver al inicio de la página, para navegar más fácilmente después de bajar por el contenido.
 
-**Etiquetas:** TODO · **Estimación:** TODO
+**Etiquetas:** historia, frontend **Estimación:** S
 
 **Criterios de aceptación:**
 
-- [ ] TODO
+- [ ] Dado que bajo por la página del portafolio, cuando aparece el botón "Volver arriba", entonces puedo identificarlo fácilmente.
+
+- [ ] Dado que estoy en una parte inferior de la página, cuando hago clic en el botón "Volver arriba", entonces la página regresa al inicio.
+
+- [ ] Dado que estoy en la parte superior de la página, cuando todavía no he bajado por el contenido, entonces el botón no estorba la navegación.
 
 **Issue:** #
