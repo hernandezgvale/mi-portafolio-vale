@@ -1,33 +1,27 @@
 ---
 name: Reporte de bug
 about: Reportar un error o problema en el portafolio
-title: ""
+title: "BUG · "
 labels: bug
 assignees: ''
 ---
 
-
-
 ## Descripción del problema
 
-
-Describe el error que encontraste.
+Describe brevemente el error que encontraste.
 
 ## Pasos para reproducir
 
-1. Ingresa al portafolio.
-2. Busca la seccion donde aparece el error.
-3. Repite la accion que genera el problema.
-
+Escribe los pasos necesarios para volver a generar el error.
 
 ## Resultado esperado
 
-Explica que deberia suceder
+Explica qué debería suceder si todo funcionara correctamente.
 
 ## Resultado actual
 
-Explica que sucede realmente.
+Explica qué sucede realmente cuando aparece el error.
 
 ## Evidencia (captura o enlace)
 
-Agrega una captura si es posible.
+Adjunta una captura de pantalla o un enlace que muestre el problema.
