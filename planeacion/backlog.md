@@ -36,7 +36,7 @@ Este archivo contiene la planeación de las funcionalidades del portafolio. Cada
 - [ ] Dado que estoy en la sección "Habilidades", cuando la leo, entonces las habilidades están agrupadas en "Frontend" y "Herramientas".
 - [ ] Dado que estoy en el menú, cuando hago clic en "Habilidades", entonces la página baja hasta esa sección.
 
-**Issue:** #
+**Issue:** #2
 
 ---
 
