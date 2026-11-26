@@ -1,23 +1,16 @@
 # Backlog de mi-portafolio
 
-Este archivo es el **plan** del proyecto. Cada historia de usuario (HU) de aquí
-se convierte en un **issue** en GitHub, se pone en el **tablero** de GitHub
-Projects y se cierra con un **commit** que diga `closes #número`.
-
-Formato de cada criterio de aceptación:
-
-> `- [ ] Dado <contexto>, cuando <acción>, entonces <resultado esperado>.`
-
-Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
-(por ejemplo `**Issue:** #4`).
+Este archivo contiene la planeación de las funcionalidades del portafolio. Cada historia de usuario se registra como un issue en GitHub, se organiza en GitHub Projects y se cierra mediante un commit.
 
 ---
 
-## HU-01 · Menú de navegación fijo  ✅ (ejemplo resuelto)
+## HU-01 · Menú de navegación fijo
 
 **Historia:** Como visitante del portafolio, quiero un menú fijo en la parte superior, para ir a cualquier sección sin hacer scroll.
 
-**Etiquetas:** historia, frontend, prioridad-alta · **Estimación:** S
+**Etiquetas:** historia, frontend, prioridad-alta
+
+**Estimación:** S
 
 **Criterios de aceptación:**
 
@@ -25,15 +18,17 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 - [ ] Dado que estoy en la parte de arriba, cuando hago clic en "Proyectos", entonces la página baja hasta la sección de proyectos.
 - [ ] Dado que hice scroll hasta el final, cuando miro la parte superior de la pantalla, entonces el menú sigue visible.
 
-**Issue:** #
+**Issue:** #1
 
 ---
 
-## HU-02 · Sección de habilidades  ✅ (ejemplo resuelto)
+## HU-02 · Sección de habilidades
 
 **Historia:** Como reclutador, quiero ver las habilidades técnicas del aprendiz en una lista, para evaluar rápidamente si su perfil encaja con la vacante.
 
-**Etiquetas:** historia, frontend · **Estimación:** S
+**Etiquetas:** historia, frontend
+
+**Estimación:** S
 
 **Criterios de aceptación:**
 
@@ -49,7 +44,9 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 **Historia:** Como visitante, quiero un pie de página con el año y los enlaces a las redes del aprendiz, para contactarlo desde cualquier parte de la página.
 
-**Etiquetas:** historia, frontend · **Estimación:** S
+**Etiquetas:** historia, frontend
+
+**Estimación:** S
 
 **Criterios de aceptación:**
 
@@ -65,12 +62,14 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 **Historia:** Como reclutador, quiero que cada tarjeta de proyecto tenga un enlace a su repositorio en GitHub, para revisar el código que escribió el aprendiz.
 
-**Etiquetas:** historia, frontend · **Estimación:** S
+**Etiquetas:** historia, frontend
+
+**Estimación:** S
 
 **Criterios de aceptación:**
 
 - [ ] Dado que abro la sección "Proyectos", cuando reviso las tarjetas, entonces cada proyecto tiene un enlace a su repositorio en GitHub.
-- [ ] Dado que veo el enlace de un proyecto, cuando reviso el texto del enlace, entonces aparece un texto claro como "Ver repositorio en GitHub".
+- [ ] Dado que veo el enlace de un proyecto, cuando reviso el texto del enlace, entonces aparece el texto "Ver repositorio en GitHub".
 - [ ] Dado que hago clic en el enlace del repositorio, cuando se abre el destino, entonces el repositorio se abre en una pestaña nueva.
 
 **Issue:** #
@@ -81,33 +80,32 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 **Historia:** Como visitante que usa el celular, quiero que el portafolio se vea bien en pantallas pequeñas, para leerlo sin hacer zoom ni scroll horizontal.
 
-**Etiquetas:** historia, frontend, prioridad-alta · **Estimación:** M
+**Etiquetas:** historia, frontend, prioridad-alta
+
+**Estimación:** M
 
 **Criterios de aceptación:**
 
-- [ ] Dado que abro el portafolio en una pantalla de menos de 600 px, cuando veo las tarjetas de proyectos, entonces las 3 tarjetas se muestran en una sola columna.
-
+- [ ] Dado que abro el portafolio en una pantalla de menos de 600 px, cuando veo las tarjetas de proyectos, entonces las tres tarjetas se muestran en una sola columna.
 - [ ] Dado que navego por el portafolio desde un celular, cuando leo el contenido, entonces puedo ver los textos sin necesidad de hacer zoom.
-
 - [ ] Dado que uso el portafolio en una pantalla pequeña, cuando recorro la página, entonces el contenido no genera desplazamiento horizontal.
 
 **Issue:** #
 
 ---
 
-## HU-06 · (RETO) Escribe tu propia historia
-
+## HU-06 · Botón para volver arriba
 
 **Historia:** Como visitante del portafolio, quiero un botón para volver al inicio de la página, para navegar más fácilmente después de bajar por el contenido.
 
-**Etiquetas:** historia, frontend **Estimación:** S
+**Etiquetas:** historia, frontend
+
+**Estimación:** S
 
 **Criterios de aceptación:**
 
-- [ ] Dado que bajo por la página del portafolio, cuando aparece el botón "Volver arriba", entonces puedo identificarlo fácilmente.
-
+- [ ] Dado que bajo más de 300 px por la página, cuando miro la parte inferior de la pantalla, entonces aparece el botón "Volver arriba".
 - [ ] Dado que estoy en una parte inferior de la página, cuando hago clic en el botón "Volver arriba", entonces la página regresa al inicio.
-
-- [ ] Dado que estoy en la parte superior de la página, cuando todavía no he bajado por el contenido, entonces el botón no estorba la navegación.
+- [ ] Dado que estoy en la parte superior de la página, cuando todavía no he bajado más de 300 px, entonces el botón permanece oculto.
 
 **Issue:** #
