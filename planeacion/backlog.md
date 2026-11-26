@@ -108,4 +108,4 @@ Este archivo contiene la planeación de las funcionalidades del portafolio. Cada
 - [ ] Dado que estoy en una parte inferior de la página, cuando hago clic en el botón "Volver arriba", entonces la página regresa al inicio.
 - [ ] Dado que estoy en la parte superior de la página, cuando todavía no he bajado más de 300 px, entonces el botón permanece oculto.
 
-**Issue:** #
+**Issue:** #6
