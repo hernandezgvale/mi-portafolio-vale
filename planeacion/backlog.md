@@ -54,7 +54,7 @@ Este archivo contiene la planeación de las funcionalidades del portafolio. Cada
 - [ ] Dado que estoy en el pie de página, cuando reviso los enlaces sociales, entonces encuentro enlaces a las redes del aprendiz.
 - [ ] Dado que hago clic en un enlace social, cuando se abre el destino, entonces llego a la página correspondiente de esa red social.
 
-**Issue:** #
+**Issue:** #3
 
 ---
 
@@ -72,7 +72,7 @@ Este archivo contiene la planeación de las funcionalidades del portafolio. Cada
 - [ ] Dado que veo el enlace de un proyecto, cuando reviso el texto del enlace, entonces aparece el texto "Ver repositorio en GitHub".
 - [ ] Dado que hago clic en el enlace del repositorio, cuando se abre el destino, entonces el repositorio se abre en una pestaña nueva.
 
-**Issue:** #
+**Issue:** #4
 
 ---
 
@@ -90,7 +90,7 @@ Este archivo contiene la planeación de las funcionalidades del portafolio. Cada
 - [ ] Dado que navego por el portafolio desde un celular, cuando leo el contenido, entonces puedo ver los textos sin necesidad de hacer zoom.
 - [ ] Dado que uso el portafolio en una pantalla pequeña, cuando recorro la página, entonces el contenido no genera desplazamiento horizontal.
 
-**Issue:** #
+**Issue:** #5
 
 ---
 
