@@ -33,3 +33,23 @@ a { color: var(--acento); }
 .etiquetas li { font-size: .8rem; padding: .15rem .6rem; border-radius: 999px; background: rgba(240, 80, 50, .15); color: var(--acento); }
 .contacto { list-style: none; }
 .footer { text-align: center; padding: 2rem; color: var(--suave); font-size: .9rem; }
+
+/* HU-01: Menu fijo de navegacion */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 8%;
+  background: var(--fondo);
+  z-index: 1000;
+}
+
+.hero {
+  padding-top: 5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
